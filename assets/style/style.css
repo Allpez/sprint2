@@ -135,6 +135,62 @@ body {
     display: inline-block;
     margin-left: 310px;
 }
+.lista{
+    margin: 40px;
+}
+
+.otro {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+
+.layout{
+    padding: 50px;
+    gap: 20px;
+    width: 60%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    gap: 10px;
+    background-color: #b2ac00;
+
+}
+
+th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    gap: 10px;
+    background-color: #6a690a;
+}
+
+tr, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    gap: 10px;
+}
+
+
+.lides {
+    margin: 80px;
+}
+
+.liorg{
+    margin: 40px;
+}
+
+
 
 footer {
     min-height: 10vh;
