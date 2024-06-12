@@ -1,0 +1,164 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+header {
+    min-height: 10vh;
+}
+
+.divTop {
+    margin: 5px 0px 0px 5px;
+    width: 99vw;
+    height: 12vh;
+    background-color: #e0b349;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+
+main {
+    min-height: 73vh;
+}
+
+.navbar {
+    display: inline-block;
+    margin: 5px 0px 15px 10px;
+}
+
+body {
+    background-color: #fff6c6;
+}
+
+.link {
+    color: #a48804;
+    text-decoration: none;
+    background-color: #fffb14;
+    border: 2px none rgb(0, 10, 96);
+    border-radius: 50px;
+    margin-left: 15px;
+    padding: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 0px #34352a;
+}
+
+.link:hover {
+    background-color: #a48804;
+    color: #fffb14;
+    box-shadow: 5px 5px 5px 0px #d5e65a;
+}
+
+.logo {
+    width: 80px;
+    margin-left: 440px;
+    vertical-align: middle;
+    object-fit: contain;
+}
+
+.title {
+    color: #6a690a;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;
+    margin-left: 255px;
+    margin-top: 9px;
+}
+
+.t2 {
+    color: #b2ac00;
+    font-style: italic;
+    text-align: center;
+}
+
+.bannerImg {
+    width: 800px;
+    height: 190px;
+    margin-left: 300px;
+    border-radius: 20px;
+
+}
+
+.img2 {
+    width: 250px;
+    margin-top: 10px;
+    vertical-align: bottom;
+    border-radius: 20px;
+}
+
+.img3 {
+    width: 200px;
+    height: 102px;
+    margin-bottom: 10px;
+    margin-left: 120px;
+    vertical-align: middle;
+    border-radius: 20px;
+}
+
+.img4 {
+    width: 170px;
+    margin-top: 10px;
+    margin-left: 605px;
+    vertical-align: middle;
+    border-radius: 20px;
+}
+
+.p1 {
+    font-size: 1.2em;
+    display: inline-block;
+    margin: 40px;
+    margin-left: 125px;
+}
+
+.p2 {
+    font-size: 1.2em;
+    display: inline-block;
+    margin: 10px;
+    margin-left: 25px;
+}
+
+.p3 {
+    display: block;
+    text-align: center;
+}
+
+.uLine {
+    margin-bottom: 0px;
+    text-decoration: underline;
+    font-size: 1.5em;
+    text-align: center;
+    display: block;
+}
+
+.info {
+    display: inline-block;
+    margin-left: 310px;
+}
+
+footer {
+    min-height: 10vh;
+}
+
+.divBottom {
+    margin: 10px 0px 5px 5px;
+    width: 99vw;
+    height: 10vh;
+    background-color: #f8d229;
+    border-radius: 20px;
+}
+
+.textFooter {
+    font-size: 1em;
+    display: inline-block;
+    color: black;
+    vertical-align: baseline;
+    margin-left: 580px;
+    margin-top: 18px;
+}
+
+.mindHub {
+    width: 80px;
+    vertical-align: middle;
+    margin-left: 440px;
+}
