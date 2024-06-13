@@ -7,24 +7,32 @@
 
 header {
     min-height: 10vh;
+    display: flex;
 }
 
 .divTop {
-    margin: 5px 0px 0px 5px;
-    width: 99vw;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
     height: 12vh;
     background-color: #e0b349;
     border-radius: 20px;
-    vertical-align: middle;
 }
 
 main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-around;
     min-height: 73vh;
 }
 
 .navbar {
-    display: inline-block;
-    margin: 5px 0px 15px 10px;
+    width: 36%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 body {
@@ -32,13 +40,17 @@ body {
 }
 
 .link {
+    display: flex;
+    min-width: 65px;
+    height: 30px;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
     color: #a48804;
     text-decoration: none;
     background-color: #fffb14;
     border: 2px none rgb(0, 10, 96);
     border-radius: 50px;
-    margin-left: 15px;
-    padding: 8px;
     font-size: 16px;
     cursor: pointer;
     box-shadow: 5px 5px 5px 0px #34352a;
@@ -51,19 +63,19 @@ body {
 }
 
 .logo {
+    display: flex;
     width: 80px;
-    margin-left: 440px;
     vertical-align: middle;
     object-fit: contain;
 }
 
 .title {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     color: #6a690a;
-    text-align: center;
     text-decoration: solid;
-    display: inline-block;
-    margin-left: 255px;
-    margin-top: 9px;
 }
 
 .t2 {
@@ -71,18 +83,26 @@ body {
     font-style: italic;
     text-align: center;
 }
+.main {
+    display: flex;
+    gap: 20px;
+}
 
+.art1 {
+    display: flex;
+}
 .bannerImg {
-    width: 800px;
+    display: flex;
+    width: 930px;
     height: 190px;
-    margin-left: 300px;
     border-radius: 20px;
 
 }
 
 .img2 {
+    display: flex;
+
     width: 250px;
-    margin-top: 10px;
     vertical-align: bottom;
     border-radius: 20px;
 }
@@ -90,32 +110,26 @@ body {
 .img3 {
     width: 200px;
     height: 102px;
-    margin-bottom: 10px;
-    margin-left: 120px;
     vertical-align: middle;
     border-radius: 20px;
 }
 
 .img4 {
     width: 170px;
-    margin-top: 10px;
-    margin-left: 605px;
     vertical-align: middle;
     border-radius: 20px;
 }
 
 .p1 {
+    display: flex;
+
     font-size: 1.2em;
     display: inline-block;
-    margin: 40px;
-    margin-left: 125px;
 }
 
 .p2 {
     font-size: 1.2em;
     display: inline-block;
-    margin: 10px;
-    margin-left: 25px;
 }
 
 .p3 {
@@ -124,7 +138,6 @@ body {
 }
 
 .uLine {
-    margin-bottom: 0px;
     text-decoration: underline;
     font-size: 1.5em;
     text-align: center;
@@ -133,10 +146,8 @@ body {
 
 .info {
     display: inline-block;
-    margin-left: 310px;
 }
 .lista{
-    margin: 40px;
 }
 
 .otro {
@@ -183,11 +194,9 @@ tr, td {
 
 
 .lides {
-    margin: 80px;
 }
 
 .liorg{
-    margin: 40px;
 }
 
 
@@ -197,24 +206,27 @@ footer {
 }
 
 .divBottom {
-    margin: 10px 0px 5px 5px;
-    width: 99vw;
+    display: flex;
+    justify-content: space-between;
+
+    width: 100vw;
     height: 10vh;
     background-color: #f8d229;
     border-radius: 20px;
 }
 
 .textFooter {
+    width: 55%;
+    display: flex;
     font-size: 1em;
-    display: inline-block;
     color: black;
-    vertical-align: baseline;
-    margin-left: 580px;
-    margin-top: 18px;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-self: center;
+
 }
 
 .mindHub {
     width: 80px;
     vertical-align: middle;
-    margin-left: 440px;
 }
