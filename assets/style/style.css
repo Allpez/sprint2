@@ -85,7 +85,40 @@ body {
 }
 .main {
     display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.mainlis {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+
+.lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 2px solid black;
+    width: 60%;
+    height: 25vh;
+    align-items: center;
+}
+
+.caption {
     gap: 20px;
+}
+
+.global {
+    display: flex;
+}
+
+.imados {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .art1 {
@@ -96,27 +129,25 @@ body {
     width: 930px;
     height: 190px;
     border-radius: 20px;
-
 }
 
 .img2 {
     display: flex;
-
     width: 250px;
     vertical-align: bottom;
     border-radius: 20px;
 }
 
 .img3 {
-    width: 200px;
-    height: 102px;
-    vertical-align: middle;
+    width: 250px;
+    height: 19vh;
     border-radius: 20px;
 }
 
 .img4 {
+    display: flex;
+
     width: 170px;
-    vertical-align: middle;
     border-radius: 20px;
 }
 
@@ -147,7 +178,11 @@ body {
 .info {
     display: inline-block;
 }
-.lista{
+.lides{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
 }
 
 .otro {
@@ -165,16 +200,15 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .table {
+    width: 100%;
+    height: 40vh;
     border: 2px solid black;
     border-collapse: collapse;
     text-align: center;
-    gap: 10px;
     background-color: #b2ac00;
-
 }
 
 th {
@@ -192,15 +226,6 @@ tr, td {
     gap: 10px;
 }
 
-
-.lides {
-}
-
-.liorg{
-}
-
-
-
 footer {
     min-height: 10vh;
 }
@@ -208,7 +233,6 @@ footer {
 .divBottom {
     display: flex;
     justify-content: space-between;
-
     width: 100vw;
     height: 10vh;
     background-color: #f8d229;
@@ -223,7 +247,6 @@ footer {
     flex-direction: row;
     justify-content: flex-end;
     align-self: center;
-
 }
 
 .mindHub {
