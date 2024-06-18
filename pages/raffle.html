@@ -11,70 +11,72 @@
 </head>
 
 <body>
-
-    <header>
-        <div class="divTop">
-            <nav class="navbar">
-                <a class="link" href="../index.html">Home</a>
-                <a class="link" href="./about.html">About Us</a>
-                <a class="link" href="../pages/contact.html">Contact</a>
-                <a class="link" href="../pages/information.html">More Information</a>
-                <a class="link" href="../pages/benefitsTips.html">Benefits and Tips</a>
-                <a class="link" href="#">Raffle</a>
-            </nav>
-            <h1 class="title">SNOWY CREAM</h1>
-            <img class="logo" src="../assets/images/logo.png" alt="Logo SNOWY CREAM">
-        </div>
-    </header>
-
-    <main>
-
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3302.3089657822975!2d-118.35485622963867!3d34.1384367465824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2be49258fcd69%3A0x907f5454583f35eb!2sThe%20Wizarding%20World%20Of%20Harry%20Potter!5e0!3m2!1ses-419!2sco!4v1718721190049!5m2!1ses-419!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
-
-        <form action="../pages/show_data.html" method="get">
-            <fieldset>
-                <legend>Raffle Table</legend>
-                <label for="name"><span class="letform">First Name:</span></label>
-                <input type="text" id="name" name="name" placeholder="First Name" required><br>
-                <label for="lastname">Last Name:</label>
-                <input type="text" id="lastname" name="lasName" placeholder="Last Name" required><br>
-                <label for="meeting">Choose Meet or Zoom:</label>
-                <select name="meeting" id="meeting" placeholder="Meet or Zoom" required>
-                    <option value="meet">Meet</option>
-                    <option value="zoom">Zoom</option>
-                </select><br>
-                <label for="date">Choose Date:</label>
-                <input type="date" id="date" name="date" placeholder="Choose Date" value="2024-06-14"><br>
-                <input type="radio" name="payment" id="cash" value="cash">
-                <label for="cash">Cash</label><br>
-                <input type="radio" name="payment" id="credit" value="credit card" required>
-                <label for="credit">Credit Card</label><br>
-                <input type="radio" name="payment" id="debit" value="debit card">
-                <label for="debit">Debit Card</label><br>
-                <label for="message">Message (Optional):</label>
-                <textarea name="message" id="messaje" placeholder="leave a message" cols="30" rows="10"></textarea><br>
-                <input type="checkbox" name="accept" id="check" required>
-                <label for="check">I accept termns and conditions.</label>
-                <input type="submit" value="Enviar">
-
-            </fieldset>
+    <div class="layout">
 
 
+        <header class="header">
+            <div class="divTop">
+                <nav class="navbar">
+                    <a class="link" href="../index.html">Home</a>
+                    <a class="link" href="./about.html">About Us</a>
+                    <a class="link" href="../pages/contact.html">Contact</a>
+                    <a class="link" href="../pages/information.html">More Information</a>
+                    <a class="link" href="../pages/benefitsTips.html">Benefits and Tips</a>
+                    <a class="link" href="#">Raffle</a>
+                </nav>
+                <h1 class="title">SNOWY CREAM</h1>
+                <img class="logo" src="../assets/images/logo.png" alt="Logo SNOWY CREAM">
+            </div>
+        </header>
 
-        </form>
+        <main class="main raffle_main">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26418.898601398047!2d-118.38935498916014!3d34.13707129999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2be4f253238cf%3A0xd3dd5027799c9a71!2sLos%20Estudios%20Universal%20Hollywood!5e0!3m2!1ses-419!2sco!4v1718723155528!5m2!1ses-419!2sco" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">Find Us</iframe>
+            <form action="../pages/show_data.html" method="get">
+                <fieldset>
+                    <legend>Raffle Table</legend>
+                    <label for="name"><span class="letform">First Name:</span></label>
+                    <input type="text" id="name" name="name" placeholder="First Name" required><br>
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" id="lastname" name="lasName" placeholder="Last Name" required><br>
+                    <label for="meeting">Choose Meet or Zoom:</label>
+                    <select name="meeting" id="meeting" placeholder="Meet or Zoom" required>
+                        <option value="meet">Meet</option>
+                        <option value="zoom">Zoom</option>
+                    </select><br>
+                    <label for="date">Choose Date:</label>
+                    <input type="date" id="date" name="date" placeholder="Choose Date" value="2024-06-14"><br>
+                    <input type="radio" name="payment" id="cash" value="cash">
+                    <label for="cash">Cash</label><br>
+                    <input type="radio" name="payment" id="credit" value="credit card" required>
+                    <label for="credit">Credit Card</label><br>
+                    <input type="radio" name="payment" id="debit" value="debit card">
+                    <label for="debit">Debit Card</label><br>
+                    <label for="message">Message (Optional):</label>
+                    <textarea name="message" id="messaje" placeholder="leave a message" cols="30"
+                        rows="10"></textarea><br>
+                    <input type="checkbox" name="accept" id="check" required>
+                    <label for="check">I accept termns and conditions.</label>
+                    <input type="submit" value="Enviar">
+
+                </fieldset>
 
 
 
-    </main>
-    <footer>
-        <div class="divBottom">
-            <p class="textFooter">Created by: Alexander López</p>
-            <img class="mindHub" src="../assets/images/logo_blanco.ca1738c0.webp" alt="logoMindHub">
-        </div>
-    </footer>
+            </form>
 
 
 
+        </main>
+        <footer class="footer">
+            <div class="divBottom">
+                <p class="textFooter">Created by: Alexander López</p>
+                <img class="mindHub" src="../assets/images/logo_blanco.ca1738c0.webp" alt="logoMindHub">
+            </div>
+        </footer>
+
+
+    </div>
 
 
 
