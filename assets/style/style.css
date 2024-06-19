@@ -31,17 +31,9 @@
     align-items: center;
 }
 
-/* .inshe {
-    display: flex;
-    justify-content: space-between;
-    width: 60vw;
-    height: 12vh;
-
-} */
-
 .main {
     display: flex;
-    width: 80%;
+    width: 70%;
     flex-direction: column;
     justify-content: space-around;
     align-content: space-around;
@@ -74,7 +66,7 @@
 .link {
     display: flex;
     width: 15%;
-    font-size: 10px;
+    font-size: 0.8rem;
     height: 80%;
     flex-direction: column;
     justify-content: center;
@@ -109,25 +101,13 @@ li {
     text-align: center;
     font-size: 1.5em;
 }
-/* .main {
-    display: flex;
-    gap: 2vh;
-    align-items: center;
-}
- */
-/* .mainlis {
-    display: flex;
-    gap: 30vh;
-    align-items: center;
-} */
 
 .sublist {
     width: 95%;
     height: 53vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
-
+    align-items: center
 }
 
 .list {
@@ -150,15 +130,15 @@ li {
 
 .global {
     display: flex;
+    flex-direction: column;
     width: 100%;
     justify-content: space-around;
 }
 
 .imados {
-    width: 30%;
-    height: 50vh;
+    width: 100%;
+    height: 18vh;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
 }
 
@@ -189,19 +169,18 @@ li {
 }
 
 .img3 {
-    width: 100%;
-    height: 15vh;
+    width: 30%;
+    height: 17vh;
     border-radius: 20px;
 }
 
 .img4 {
-    width: 30%;
-    height: 30vh;
+    width: 50%;
+    height: 50vh;
     border-radius: 20px;
     align-self: center;
     border-radius: 20px;
 }
-
 
 .img5 {
     width: 30%;
@@ -219,7 +198,9 @@ li {
 
 .p2 {
     font-size: 1em;
+    width: 50%;
     display: inline-block;
+    align-self: center;
 }
 
 .p3 {
@@ -232,10 +213,12 @@ li {
     font-size: 1.5em;
     text-align: center;
     display: block;
+    width: 100%;
 }
 
 .info {
     display: inline-block;
+    text-align: center;
 }
 .lides{
     display: flex;
@@ -249,7 +232,6 @@ li {
     display: flex;
     flex-direction: column;
 }
-
 
 .subtable1 {
     width: 100%;
@@ -304,24 +286,35 @@ tr, td {
 
 .mapraff {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
-    height: 70vh;
+    height: 69vh;
 
 }
-/* .form {
+.form {
     display: flex;
-    width: 25%;
-    height: 58vh;
+    width: 35%;
+    height: 68vh;
     font-size: 0.8em;
-} */
+}
+.fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 68vh;
+}
 
 .label {
     width: 100%;
     height: 7vh;
     justify-content: center;
     align-items: center;
+}
+
+.label2 {
+    width: 100%;
+    height: 25vh;
 }
 
 .footer {
@@ -355,10 +348,189 @@ tr, td {
     vertical-align: middle;
 }
 
-
-@media (min-width: 768px){
+@media only screen and (max-width: 1024px){
     .navbar {
+        width: 56%;
+        font-size: 12px;
+        gap: 2px;
+    }
+
+    .img4 {
+        width: 50%;
+        height: 46vh;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .link {
+        width: 56%;
+        font-size: 10px;
+        gap: 2px;
+    }
+
+    .list {
+        width: 120%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .list {
+        width: 140%;
+    }
+    .mapraff {
+        gap: 30px;
+    }
+}
+
+
+@media only screen and (max-width: 551px){
+    .divTop {
+        justify-content: space-between;
+        height: 28vh;
+    }
+}
+
+@media only screen and (max-width: 551px){
+    .link {
+        width: 50%;
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 551px){
+    .logo {
+        width: 20%;
+    }
+}
+    @media only screen and (max-width: 551px){
+    .img3 {
         width: 65%;
-        
+        height: 28vh;
+    }
+}
+
+@media only screen and (max-width: 551px){
+    .bannerIng {
+        width: 95%;
+    }
+}
+
+
+@media only screen and (max-width: 551px){
+    .navbar {
+        flex-direction: column;
+        align-items: end;
+        justify-content: center;
+        width: 70%;
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width: 551px){
+    .textFooter {
+        font-size: 0.7em;
+        width: 68%; 
+    }
+}
+
+@media only screen and (max-width: 551px){
+    .mindHub {
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 551px){
+    .art1 {
+        padding: 10px 0;
+        flex-direction: column-reverse;
+    }
+}
+
+@media only screen and (max-width: 551px){
+    .button {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media only screen and (max-width: 551px){
+    .imados {
+        width: 100%;
+        height: 41vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .p2 {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 551px){
+    .contact {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .img4 {
+        width: 100%;
+    }
+
+@media only screen and (max-width: 551px){
+    .subtable2 {
+        width: 95%;
+        height: 60vh;
+    }
+}
+
+@media only screen and (max-width: 551px){
+    .list {
+        flex-direction: column;
+        width: 95%;
+        height: 80vh;
+    }
+    .img5 {
+        width: 50%;
+    }  
+}
+
+@media only screen and (max-width: 551px){
+    .mapraff {
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+        height: 160vh;
+    }
+    .div-form {
+        padding-left: 40px;
+    }
+
+    .map {
+        width: 95%;
+        height: 60vh;
+    }
+
+    .label {
+        height: 12vh;
+    }
+    .fieldset {
+        height: 80vh;
+}
+@media only screen and (max-width: 551px){
+    .sublist {
+        width: 100%;
+        height: 155vh;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .img5 {
+        width: 80%;
+        height: 40vh;
+    }
+
+    .liorg {
+        width: 50%;
     }
 }
